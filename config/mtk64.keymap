@@ -94,7 +94,7 @@
 
         default_layer {
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp DELETE  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BACKSPACE  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp APOS  &kp ENTER  &lt 1 LEFT_SHIFT  &kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp V  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp B  &kp N  &kp M  &kp COMMA  &kp PERIOD  &kp SLASH  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt 2 SPACE  &lt 4 RIGHT_ALT  &kp LEFT_SHIFT  &lt 3 RCTRL  &kp RIGHT_SHIFT  &kp LEFT_BRACKET  &tog 2  &kp ENTER  &lt 3 LANG1  &to 2  &kp ENTER  &tog 2  &lt 1 RIGHT_ALT  &kp LEFT_SHIFT  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp DELETE  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BACKSPACE  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp APOS  &kp ENTER  &lt 1 LEFT_SHIFT  &kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp V  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp B  &kp N  &kp M  &kp COMMA  &kp PERIOD  &kp SLASH  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt 2 SPACE  &lt 4 RIGHT_ALT  &kp LEFT_SHIFT  &lt 3 RCTRL  &kp RIGHT_SHIFT  &kp LEFT_BRACKET  &tog 2  &kp ENTER  &lt 3 LANG1  &to 2  &kp ENTER  &tog 2  &lt 1 RIGHT_ALT  &to 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings =
@@ -110,7 +110,7 @@
 
         layer_2 {
             bindings = <
-&kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp LA(TAB)  &kp LS(LG(S))  &kp LC(W)  &kp LG(E)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp LS(LC(T))  &mkp MB3  &mkp RCLK  &lt 3 LEFT_BRACKET  &kp F12  &kp DELETE  &kp LCTRL  &kp LC(A)  &kp LC(S)  &kp LC(C)  &kp LC(V)  &kp LC(F)  &mkp MB4  &mkp LCLK  &mkp RCLK  &lt 3 LCTRL  &mkp MB3  &kp ENTER  &kp LEFT_SHIFT  &kp RCTRL  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp PERIOD  &none  &none  &mkp MB5  &kp LC(LS(TAB))  &kp DOWN  &kp LC(TAB)  &mkp MB3  &trans  &trans  &kp LEFT_ALT  &trans  &trans  &kp INS  &kp RCTRL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LS(TAB))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp LA(TAB)  &kp LS(LG(S))  &kp LC(W)  &kp LG(E)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp LS(LC(T))  &mkp MB3  &mkp RCLK  &lt 3 LEFT_BRACKET  &kp F12  &kp DELETE  &kp LCTRL  &kp LC(A)  &kp LC(S)  &kp LC(C)  &kp LC(V)  &kp LC(F)  &mkp MB4  &mkp LCLK  &mkp RCLK  &lt 3 LCTRL  &mkp MB3  &kp ENTER  &kp LEFT_SHIFT  &kp RCTRL  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp PERIOD  &none  &none  &mkp MB5  &kp LC(LS(TAB))  &kp DOWN  &kp LC(TAB)  &mkp MB3  &trans  &trans  &kp LEFT_ALT  &trans  &trans  &kp INS  &kp RCTRL  &trans  &trans  &trans  &trans  &trans  &to 0  &trans  &trans  &trans  &kp LC(LS(TAB))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
@@ -121,7 +121,7 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE  &kp LC(LS(TAB))  &kp F10  &kp F11  &kp F12  &trans  &bt BT_NXT  &bt BT_PRV  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &bt BT_CLR  &kp HOME  &kp LEFT_ARROW  &kp F7  &kp F8  &kp F9  &trans  &LinuxLogin  &trans  &kp UP_ARROW  &kp LS(APOS)  &trans  &kp BACKSPACE  &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &kp F4  &kp F5  &kp F6  &trans  &RpaLogin  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp ENTER  &trans  &trans  &kp F1  &kp F2  &kp F3  &trans  &mail_parasa  &mail_rikoru  &ShiftPass  &Rikopass  &trans  &emp_num  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp LC(LS(TAB))  &kp F10  &kp F11  &kp F12  &trans  &bt BT_NXT  &bt BT_PRV  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &bt BT_CLR  &kp HOME  &kp LEFT_ARROW  &kp F7  &kp F8  &kp F9  &trans  &LinuxLogin  &trans  &kp UP_ARROW  &kp LS(APOS)  &trans  &kp BACKSPACE  &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &kp F4  &kp F5  &kp F6  &trans  &RpaLogin  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp ENTER  &trans  &trans  &kp F1  &kp F2  &kp F3  &trans  &mail_parasa  &mail_rikoru  &ShiftPass  &Rikopass  &trans  &emp_num  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &to 0  &trans
             >;
 
             sensor-bindings = <

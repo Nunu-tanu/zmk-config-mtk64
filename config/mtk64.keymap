@@ -132,7 +132,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &trans  &trans  &trans  &kp MINUS  &kp DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp MINUS  &kp BACKSPACE  &trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)  &kp SLASH  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp SEMICOLON  &kp ENTER  &trans  &kp LS(NUMBER_6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &trans  &trans  &kp SEMICOLON  &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &kp KP_NUMLOCK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &trans  &trans  &trans  &kp MINUS  &kp DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp MINUS  &kp BACKSPACE  &trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)  &kp SLASH  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp SEMICOLON  &kp ENTER  &trans  &kp LS(NUMBER_6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &trans  &trans  &kp SEMICOLON  &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans  &kp LS(SLASH)  &trans  &trans  &trans  &trans  &trans  &kp KP_NUMBER_0  &kp KP_NUMLOCK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
